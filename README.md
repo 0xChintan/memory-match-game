@@ -59,8 +59,7 @@ If the two cards match, they remain flipped. If not, they will flip back after a
 The game is won when all pairs have been matched. A notification will display your winning message and the number of moves.
 
 ## Available Scripts
-
-# In the project directory, you can run:
+In the project directory, you can run:
 
 **npm run dev**: Starts the development server.
 
