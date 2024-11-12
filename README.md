@@ -38,7 +38,7 @@ Make sure you have Node.js and npm installed on your machine. If not, download t
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/0xChintan/dashboard-widgets-zustand.git
+   git clone https://github.com/0xChintan/memory-match-game.git
    cd dashboard-widgets-zustand
 
 2. **Install dependencies**:
