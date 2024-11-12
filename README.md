@@ -61,6 +61,9 @@ The game is won when all pairs have been matched. A notification will display yo
 ## Available Scripts
 
 # In the project directory, you can run:
+
 **npm run dev**: Starts the development server.
+
 **npm run build**: Builds the application for production.
+
 **npm start**: Runs the production build.# memory-match-game
