@@ -65,12 +65,12 @@ const HomePage = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 p-6">
+      <div className="grid grid-cols-4 lg:grid-cols-6 gap-6 p-6">
         {cards.map((card, index) => (
           <div key={card.id} className="relative">
             <div
               onClick={() => flipCard(index)}
-              className={`w-full h-32 sm:h-40 md:h-48 lg:h-56 flex items-center justify-center rounded-lg shadow-lg transform transition-all duration-500 ${
+              className={`w-full h-24 sm:h-40 md:h-48 lg:h-56 flex items-center justify-center rounded-lg shadow-lg transform transition-all duration-500 ${
                 card.flipped || flippedCards.includes(index)
                   ? "bg-indigo-500 text-white rotate-y-180"
                   : "bg-gray-700"
